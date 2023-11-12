@@ -1,0 +1,11 @@
+my_List = [21,25,21,23,22,20]
+my_List.append(31)
+print(f"追加了一个元素在末尾的结果是：{my_List}")
+my_List.extend([29,33,30])
+print(f"添加了一个列表之后的结果是：{my_List}")
+elemt = my_List.pop(0)
+print(f"取出第一个元素之后的结果是：{my_List},取出的元素是：{elemt}")
+elemt = my_List.pop(-1)
+print(f"取出最后一个元素的结果是：{my_List},取出的元素是：{elemt}")
+index = my_List.index(31)
+print(f"元素31的下标是{index}")
